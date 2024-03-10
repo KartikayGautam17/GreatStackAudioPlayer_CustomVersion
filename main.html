@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Player</title>
+    <link href="main.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3d9b179e2b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="music-player">
+            <nav class="navbar">
+                <div class="volume-setup">
+                    <div class="circle" id="volume-circle">
+                        <i id="volume-btn"class="fa-solid fa-volume-high"></i>
+                    </div>
+                    <div class="volume-slider">
+                        <input type="range" value="100"id="volume-progress-bar">
+                    </div>
+                </div>
+                <div class="circle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+            <img src="resources/thumbnail.jpg" class="thumbnail">
+            <div class="description">
+            <h1>The City</h1>
+            <p>Madeon</p>
+            </div>
+            <audio id="song">
+                <source src="resources/Madeon - The City.mp3" type="audio/mpeg">
+            </audio>
+            <div id="progress-timeline">
+                <div id="progress-before">0:00</div>
+                <div id="progress-after">0:00</div>
+            </div>
+            <input type="range" value="0" id="progress">
+            <div class="controls">
+                <div class="backward"><i class="fa-solid fa-backward"></i></div>
+                <div class="play"><i class="fa-solid fa-play"></i></div>
+                <div class="forward"><i class="fa-solid fa-forward"></i></div>
+            </div>
+        </div> 
+    </div>
+<script src="main.js"></script>
+</body>
+</html>
