@@ -25,7 +25,6 @@ let end_time = document.getElementById("progress-after");
 let volume_btn = document.getElementById("volume-btn");
 let volume_circle = document.getElementById("volume-circle");
 let volume_progress_bar = document.getElementById("volume-progress-bar");
-
 //------//
 
 function update_progress_bar(){
