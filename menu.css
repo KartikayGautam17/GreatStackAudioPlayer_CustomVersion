@@ -1,0 +1,84 @@
+.menu {
+    position: absolute;
+    width: 80%;
+    height: 70vh;
+    top: 0;
+    right: -80%;
+    border-radius: 20px;
+    z-index: 2;
+    background-color: #fb7289;
+    color: #333;
+    font-weight: 400;
+    transition: 1s;
+}
+
+#xmark {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.menu h3 {
+    margin: 20px auto;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+
+#add-icon {
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.queue {
+    padding: 5px;
+    text-align: left;
+    width: auto;
+    margin: 20px 15px;
+    margin-top: 50px;
+    font-size: 20px;
+    border: 0.5px solid white;
+    border-radius: 10px;
+}
+
+.menu ul {
+    list-style: none;
+    font-size: 15px;
+    max-height: 200px;
+}
+
+.menu li {
+    margin: 10px 10px;
+    padding: 5px;
+    text-align: center;
+    border: 1px dotted white;
+    cursor: pointer;
+}
+
+.currently-playing {
+    background: linear-gradient(rgba(255, 128, 25, 0.5), rgba(236, 23, 255, 0.7));
+}
+
+.the-wall {
+    background: #333;
+    z-index: 3;
+    border-radius: 0;
+}
+
+.label-input {
+    width: fit-content;
+    margin: 0 auto;
+    padding: 10px;
+    border: 0.5px dotted white;
+    background: transparent;
+    box-shadow: 0 5px 10px rgba(245, 43, 218, 0.3);
+    transition: 0.5s;
+}
+
+.label-input:hover {
+    background: rgba(35, 35, 35, 0.962);
+    transition: 0.5s;
+    color: white;
+}
